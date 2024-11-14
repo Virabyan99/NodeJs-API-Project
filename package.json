@@ -1,11 +1,13 @@
 {
   "name": "nodejs-api-project",
   "version": "1.0.0",
-  "description": "Anexpress API Example proj",
-  "main": "server.js",
+  "description": "An express API Example project",
+  "main": "build/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon build/server.js"
+    "start": "node build/server.js",
+    "dev": "nodemon build/server.js",
+    "build": "tsc", 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
